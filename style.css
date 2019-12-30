@@ -1,0 +1,100 @@
+html {
+    box-sizing: border-box;
+    font-size: 100%;
+}
+
+*,
+:after,
+:before {
+    box-sizing: inherit;
+}
+
+body {
+    background-color: #ffffff;
+    min-height: 100vh;
+    text-align: center;
+    font-family: Futura, sans-serif;
+}
+
+.logo {
+    width: 300px;
+}
+
+.links__item {
+    display: block;
+    max-width: 400px;
+    margin: 0 auto 15px;
+    margin-bottom: 5px;
+    padding: 15px 20px;
+    font-size: 0.85rem;
+    text-decoration: none;
+    transition: all 0.2s ease-in-out;
+}
+
+a:hover {
+    background-color: #060042;
+    color: #fff;
+}
+
+.links__item .links__item--upcoming {
+    border-bottom: 3px solid #F27781;
+    box-shadow: inset 0 -4px 0 #F27781;
+    border-radius: 25px;
+    border: 2px solid #F27781;
+}
+
+.links__item .links__item--promo {
+    border-bottom: 3px solid #18298C;
+    box-shadow: inset 0 -4px 0 #18298C;
+    border-radius: 25px;
+    border: 2px solid #18298C;
+}
+
+.links__item .links__item--past-event {
+    border-bottom: 3px solid #079DD9;
+    box-shadow: inset 0 -4px 0 #079DD9;
+    border-radius: 25px;
+    border: 2px solid #079DD9;
+}
+
+.links__item .links__item--featured {
+    border-bottom: 3px solid #04BF8A;
+    box-shadow: inset 0 -4px 0 #04BF8A;
+    border-radius: 25px;
+    border: 2px solid #04BF8A;
+}
+
+.links__item .links__item--product {
+    border-bottom: 3px solid #F2B138;
+    box-shadow: inset 0 -4px 0 #F2B138;
+    border-radius: 25px;
+    border: 2px solid #F2B138;
+}
+
+.links__item .links__item--alumni {
+    border-bottom: 3px solid #F2B807;
+    box-shadow: inset 0 -4px 0 #F2B807;
+    border-radius: 25px;
+    border: 2px solid #F2B807;
+}
+
+.links__item .links__item--blog {
+    border-bottom: 3px solid #F25041;
+    box-shadow: inset 0 -4px 0 #F25041;
+    border-radius: 25px;
+    border: 2px solid #F25041;
+}
+
+.channels {
+    display: flex;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.channels .channels__item {
+    flex: 1;
+    margin-right: 10px;
+    border-bottom: 3px solid #ffe57f;
+    box-shadow: inset 0 -2px 0 #ffe57f;
+    text-decoration: none;
+}
