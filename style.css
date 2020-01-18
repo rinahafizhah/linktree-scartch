@@ -123,11 +123,11 @@ h2 {
 }
 
 .links__item .links__item--blog {
-  border-bottom: 3px solid #eb5a4d;
-  box-shadow: inset 0 -4px 0 #eb5a4d;
+  border-bottom: 3px solid #fd8176;
+  box-shadow: inset 0 -4px 0 #fd8176;
   border-radius: 25px;
-  border: 2px solid #eb5a4d;
-  background-color: #eb5a4d;
+  border: 2px solid #fd8176;
+  background-color: #fd8176;
 }
 
 .channels {
